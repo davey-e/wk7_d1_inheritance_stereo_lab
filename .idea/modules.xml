@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/InterfacesStereoLab.iml" filepath="$PROJECT_DIR$/.idea/modules/InterfacesStereoLab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InterfacesStereoLab_main.iml" filepath="$PROJECT_DIR$/.idea/modules/InterfacesStereoLab_main.iml" group="InterfacesStereoLab" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InterfacesStereoLab_test.iml" filepath="$PROJECT_DIR$/.idea/modules/InterfacesStereoLab_test.iml" group="InterfacesStereoLab" />
     </modules>
   </component>
 </project>
