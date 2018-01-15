@@ -9,11 +9,21 @@ public class RadioTest {
 
     @Before
     public void before(){
-        radio = new Radio();
+        radio = new Radio("Phillips", "T600");
     }
 
     @Test
     public void canTune(){
         assertEquals("Radio 1", radio.tune("Radio 1"));
+    }
+
+    @Test
+    public void hasMake(){
+        assertEquals("Phillips", radio.getMake());
+    }
+
+    @Test
+    public void hasModel(){
+        assertEquals("T600", radio.getModel());
     }
 }
