@@ -10,7 +10,7 @@ public class RecordDeckTest {
 
     @Before
     public void before(){
-        recordDeck = new RecordDeck(45, "Technics", "T1000");
+        recordDeck = new RecordDeck("Technics", "T1000", 45);
     }
 
     @Test

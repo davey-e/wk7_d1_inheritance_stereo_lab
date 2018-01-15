@@ -1,19 +1,7 @@
-public class CDPlayer {
-
-    private String make;
-    private String model;
+public class CDPlayer extends Component implements IPlay {
 
     public CDPlayer(String make, String model){
-        this.make = make;
-        this.model = model;
-    }
-
-    public String getMake() {
-        return this.make;
-    }
-
-    public String getModel() {
-        return this.model;
+        super(make, model);
     }
 
     public String play() {
